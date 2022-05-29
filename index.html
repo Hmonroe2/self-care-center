@@ -2,10 +2,41 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap"
+    rel="stylesheet">
   </head>
   <body>
-  
-    <script type="text/javascript" src="main.js"></script>
+    <h1> &#x2728; Self Care Center &#x2728;</h1>
+    <h2> Which type of Message? </h2>
+    <section class = "user-buttons">
+      <section class = "user-buttons1">
+        <section class = "user-affirm">
+          <input type= "radio" id= "affirmationButton" name= "userchoice"
+          value = "selectAffirmations">
+          <label for= "affirmation"><em>affirmation</em></label>
+        </section>
+        <section class ="user-mantra">
+          <input type= "radio" id= "mantraButton" name= "userchoice"
+          value = "mantra">
+          <label for= "mantra"><em>mantra</em></label>
+        </section>
+      </section>
+      <section class = "recieve-button">
+          <button class = "recieve-button1"> Recieve Message </button>
+      </section>
+    </section>
+    <section class = "meditate-info">
+      <section class = "meditate-pic">
+        <section class = "meditate-pic1">
+          <section class = "meditate-pic2">
+            <embed class = "yogaGuy hidden"src="assets/meditate.svg" id = "svg">
+            </embed>
+          </section>
+        </section>
+         <span class = "mantrasText"> </span>
+      </section>
+    </section>
+    <script type = "text/javascript" src="./src/main.js" ></script>
+    <script type = "text/javascript" src="./src/data.js" ></script>
   </body>
 </html>
