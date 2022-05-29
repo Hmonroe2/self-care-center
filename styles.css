@@ -6,3 +6,136 @@ dark-blue - #134d71;
 white - #ffffff;
 black - #000000;
 */
+*{
+border: 1px solid red;
+}
+html{
+  background-image:
+  linear-gradient(#134d71,#134d71,#78a7c6, #f7e4bf );
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width:auto;
+  height: 100%;
+}
+body {
+  background-repeat: no-repeat;
+  font-family: 'Quicksand', sans-serif;
+  background-size : 100%
+}
+
+.user-buttons {
+  display: flex;
+  margin-top: 3px;
+  margin: auto;
+  display:grid;
+  justify-content: ;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  width: 450px;
+  height: 80px;
+
+}
+
+.user-buttons1 {
+  display: flex;
+  justify-content:center;
+  justify-content: space-around;
+  /* background-color: red; */
+  width: 400px;
+  padding: 10px;
+  padding-right:0px;
+}
+
+.user-affirm{
+  display:flex;
+  justify-content: flex-start;
+  justify-content: space-evenly;
+  width: 125px;
+  height: 10px;
+}
+.user-mantra{
+  display:flex;
+  justify-content: flex-start;
+  justify-content: space-evenly;
+  width: 100px;
+  height: 10px;
+
+}
+
+h1 {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+h2 {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  font-size: 20px;
+
+}
+.meditate-info{
+  display: flex;
+  justify-content: center;
+}
+.meditate-pic {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-sizing: 30px x 30px;
+  height: 150px;
+  width: 700px;
+  margin: 70px;
+}
+.yogaGuy{
+  padding-top: 20px;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.recieve-button1{
+  background-color:#134d71;
+  color: #ffffff;
+  justify-content: center;
+  width: 175px;
+  height: 25px;
+  align-items: center;
+  border-radius: 5px;
+}
+.recieve-button{
+  display: flex;
+  justify-content: center;
+}
+em{
+  padding-right: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+label{
+
+  justify-content: flex-start;
+}
+
+.meditate-pic1{
+  justify-content: center;
+
+}
+.mantras1{
+  display: flex;
+  justify-content: flex-end;
+  /* padding: 30px; */
+
+}
+.mantrasText{
+  width: auto;
+  height: 10px;
+}
