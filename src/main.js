@@ -43,18 +43,17 @@ var radioAffirmButton = document.querySelector("#affirmationButton")
 var radioMantraButton = document.querySelector("#mantraButton")
 var meditationPic = document.querySelector(".meditate-pic1")
 var mantraText = document.querySelector(".mantrasText")
-var yogaguy = document.querySelector(".picture")
+var yogaguy = document.querySelector(".yoga-Guy")
 
 
 
-
+// window.addEventListener("load", yogaGuyPicture)
 recieveMessageButton.addEventListener("click", viewMessage)
 // radioAffirmButton.addEventListener("", viewMessage)
- radioMantraButton.addEventListener("click", viewMessage)
+ // radioMantraButton.addEventListener("click", viewMessage)
 
 
-
-
+// yogaguy.classList.hidden(true)
 
 
 
@@ -69,11 +68,13 @@ function viewMessage(){
     mantraText.innerHTML = (getRandomItemFromArray(affirmations))
 
 }
-showMantra(){
-  if("click"=== true){
-    return true
-  }
-}
+
+
+// showMantra(){
+//   if("click"=== true){
+//     return true
+//   }
+// }
 //
 // function showMantra(){
 //

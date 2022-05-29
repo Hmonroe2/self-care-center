@@ -23,6 +23,24 @@ body {
   background-size : 100%
 }
 
+h1 {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+h2 {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+/* .hidden{
+  display: hidden;
+} */
 .user-buttons {
   display: flex;
   margin-top: 3px;
@@ -35,6 +53,7 @@ body {
   margin-bottom: 50px;
   width: 450px;
   height: 80px;
+  text-align: center;
 
 }
 
@@ -64,21 +83,6 @@ body {
 
 }
 
-h1 {
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 100px;
-}
-
-h2 {
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 5px;
-  font-size: 20px;
-
-}
 .meditate-info{
   display: flex;
   justify-content: center;
@@ -89,9 +93,12 @@ h2 {
   background-color: #ffffff;
   border-radius: 5px;
   box-sizing: 30px x 30px;
-  height: 150px;
+  height: 130px;
   width: 700px;
   margin: 70px;
+}
+.meditate-pic1{
+  display: none;
 }
 .yogaGuy{
   padding-top: 20px;
@@ -100,6 +107,7 @@ h2 {
   display: flex;
   justify-content: center;
   margin: 10px;
+  /* visibility: hidden; */
 }
 .recieve-button1{
   background-color:#134d71;
@@ -125,17 +133,21 @@ label{
   justify-content: flex-start;
 }
 
-.meditate-pic1{
+/* .meditate-pic1{
   justify-content: center;
-
-}
+} */
 .mantras1{
   display: flex;
   justify-content: flex-end;
-  /* padding: 30px; */
+  justify-content: flex;
+  height: 20px
+
 
 }
 .mantrasText{
   width: auto;
   height: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 40px;
 }
