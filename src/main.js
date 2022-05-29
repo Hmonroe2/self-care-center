@@ -21,13 +21,11 @@ function showAffirm(){
     recieveMessageButton.addEventListener("click", showAffirm)
     mantraText.innerHTML = (getRandomItemFromArray(affirmations))
     hide()
-    console.log("i am also working")
 }
 
 function showMantra(){
   recieveMessageButton.addEventListener("click", showMantra)
   mantraText.innerHTML = (getRandomItemFromArray(mantras))
-console.log("im working")
 }
 
 function hide(){
